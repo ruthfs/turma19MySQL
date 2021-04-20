@@ -26,3 +26,6 @@ select * from tb_employees where salario > 2000
 
 -- ordenando por salario menor que 2000
 select * from tb_employees where salario <= 2000
+
+-- atualização de dado
+update tb_employees set salario = 1900 where matricula = 4
